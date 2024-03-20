@@ -1,0 +1,52 @@
+Operators in C are symbols or tokens that are used to perform operations on operands. Operands can be variables, constants, or expressions. Operators dictate how the operands are manipulated or combined to produce a result.
+
+In C programming, operators serve various purposes such as arithmetic calculations, logical evaluations, bitwise operations, assignment of values, comparison of values, and more. They are fundamental building blocks for constructing expressions and statements in C programs.
+
+Arithmetic Operators:
+---------------------
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Modulus (%)
+Increment (++)
+Decrement (--)
+
+
+Relational Operators:
+Equal to (==)
+Not equal to (!=)
+Greater than (>)
+Less than (<)
+Greater than or equal to (>=)
+Less than or equal to (<=)
+
+Logical Operators:
+Logical AND (&&)
+Logical OR (||)
+Logical NOT (!)
+
+Assignment Operators:
+Assignment (=)
+Addition assignment (+=)
+Subtraction assignment (-=)
+Multiplication assignment (*=)
+Division assignment (/=)
+Modulus assignment (%=)
+
+Bitwise Operators:
+Bitwise AND (&)
+Bitwise OR (|)
+Bitwise XOR (^)
+Bitwise NOT (~)
+Left shift (<<)
+Right shift (>>)
+
+Conditional Operator (Ternary Operator):
+Conditional expression ? true expression : false expression
+
+Comma Operator:
+Evaluates multiple expressions, separated by commas, and returns the value of the last expression.
+
+Sizeof Operator:
+Returns the size
