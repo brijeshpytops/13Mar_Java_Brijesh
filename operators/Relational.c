@@ -13,6 +13,6 @@ void main(){
     //printf("%d", num1 < num2);
     //printf("%d", num1 > num2);
     //printf("%d", num1 <= num2);
-    printf("%d", num1 >= num2);
+    //printf("%d", num1 >= num2);
 
 }

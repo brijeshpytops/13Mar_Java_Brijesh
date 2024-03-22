@@ -8,7 +8,8 @@ void main(){
     //num += 20;
     //num -= 20;
     //num *= 20;
-    num /= 20;
+    //num /= 20;
+    // num %= 20;
     printf("%d", num);
 
 }
