@@ -1,0 +1,75 @@
+In C programming, conditional statements are used to execute different blocks of code based on certain conditions. The most common conditional statements in C are:
+
+if statement: This statement is used to execute a block of code if the specified condition is true.
+c
+
+syntax:
+
+if (conditions){
+    // code to be executed if the condition is true
+}
+
+
+if-else statement: This statement is used to execute one block of code if the specified condition is true and another block of code if it is false.
+
+syntax:
+
+if (conditions){
+    // code to be executed if the condition is true
+}else{
+    // code to be executed if the condition is false
+}
+
+Nested if, if-else statements in C allow for multiple levels of condition checking, where one if or if-else statement is nested within another. This can be useful for more complex decision-making logic.
+
+syntax:
+
+if (condition-1){
+    if (condition-2){
+    
+    }   
+}
+
+if (condition-1){
+    if (condition-2){
+    
+    }else{
+
+    }
+}else{
+
+}
+
+else-if ladder: This is an extension of the if-else statement. It allows you to check multiple conditions and execute different blocks of code based on which condition is true.
+
+syntax: 
+
+if (condition-1){
+    // code to be executed if condition1 is true
+}else if (condition-2){
+    // code to be executed if condition2 is true
+}else if (condition-3){
+    // code to be executed if condition3 is true
+}
+// You can add more else-if blocks as needed
+....
+else{
+    // code to be executed if none of the conditions are true
+}
+
+
+switch : The switch statement is a control flow statement used to select one of many code blocks to be executed, based on the value of an expression. It provides a way to write more organized and concise code when you have multiple conditions to evaluate against the same variable.
+
+syntax: 
+
+switch (expression) {
+    case constant1:
+        // code to be executed if expression equals constant1
+        break;
+    case constant2:
+        // code to be executed if expression equals constant2
+        break;
+    // Additional cases can be added as needed
+    default:
+        // code to be executed if expression doesn't match any case
+}
