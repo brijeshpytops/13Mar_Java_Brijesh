@@ -1,0 +1,49 @@
+In C programming, a loop is a control flow structure that allows a certain block of code to be executed repeatedly based on a condition. There are three main types of loops in C:
+
+1] while: 
+
+The while loop is used when you want to execute a block of code as long as a condition is true. The condition is checked before executing the code block.
+
+syntax: 
+
+while (condition){
+    # code of block 
+}
+
+
+2] do while
+
+The do-while loop is similar to the while loop, but the condition is checked after executing the code block, so the code block is executed at least once.
+
+syntax:
+
+do{
+    # block of code
+}while(condition)
+
+3] for
+
+The for loop is used when you know in advance how many times you want to execute a block of code. It consists of three parts: initialization, condition, and increment/decrement.
+
+syntax:
+
+for(initialization; condition; increment/decrement) {
+    // code block to be executed
+}
+
+
+Ascci table Link: https://www.ascii-code.com/
+
+Pattern example link: https://witzcode.pythonanywhere.com/technology/2/9/?wz_tech=C%20programming&wz_category=patterns
+
+0 1 0 1 0
+0 1 0 1 0
+0 1 0 1 0
+0 1 0 1 0
+0 1 0 1 0
+
+0 0 0 0 0
+1 1 1 1 1
+0 0 0 0 0
+1 1 1 1 1
+0 0 0 0 0
