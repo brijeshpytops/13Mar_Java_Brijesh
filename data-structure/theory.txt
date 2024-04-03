@@ -1,0 +1,64 @@
+Problem : 
+
+#include <stdio.h>
+
+int main() {
+    
+ int stu1;
+ printf("Enter your score stu-1: ");
+ scanf("%d", &stu1);
+ int stu2;
+ printf("Enter your score stu-2: ");
+ scanf("%d", &stu2);
+ printf("stu1: %d and stu2: %d", stu1, stu2);
+}
+
+
+ARRAY :
+
+- In C programming, an array is a data structure that can store a fixed-size sequential collection of elements of the same type.
+
+- Each element in an array is identified by an index.The index is a non-negative integer that represents the position of the element in the array.
+
+
+In C programming, an array is a data structure that can store a fixed-size sequential collection of elements of the same type. Each element in an array is identified by an index. The index is a non-negative integer that represents the position of the element in the array.
+
+Arrays in C have the following characteristics:
+
+Fixed Size: The size of an array is fixed at compile time and cannot be changed during runtime.
+
+Contiguous Memory Allocation: The elements of an array are stored in contiguous memory locations. This means that the memory addresses of array elements are adjacent to each other.
+
+Zero-based Indexing: In C, array indexing starts from 0. So, the first element of the array is accessed using index 0, the second element with index 1, and so on.
+
+Homogeneous Data: All elements in the array must be of the same data type. For example, an array of integers can only store integers, and an array of characters can only store characters.
+
+There are two types of array
+
+1] single dim
+
+syntax: 
+
+data_type array_name[array_size];
+
+data_type is the type of elements that the array will store.
+array_name is the identifier or name given to the array.
+array_size is the number of elements that the array can hold. It must be a positive integer.
+
+2] two dim
+
+syntax:
+
+data_type array_name[row][col];
+
+The syntax "data_type array_name[row][col]" in C declares a 2-dimensional array named "array_name" with "row" rows and "col" columns, where each element stores data of type "data_type".
+
+
+{
+    {m, p, c, e, g}, 
+    {m, p, c, e, g}, 
+    {m, p, c, e, g}, 
+    {m, p, c, e, g},
+    {m, p, c, e, g}
+}
+
