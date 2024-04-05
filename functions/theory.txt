@@ -1,0 +1,49 @@
+In C programming, a function is a self-contained block of code that performs a specific task. Functions allow you to organize your code into manageable chunks, making it easier to read, write, and maintain. In C, a program typically consists of one or more functions, with one function being designated as the main function, which serves as the entry point for the program execution.
+
+Here's the basic syntax for defining a function in C:
+
+return_type function_name(parameter_list) {
+    // Function body
+    // Statements
+    return value; // optional
+}
+
+function_name(parameter_value_list)
+
+return_type: This specifies the data type of the value that the function returns after it completes its task. If the function doesn't return any value, you use void as the return type.
+
+function_name: This is the identifier of the function, by which you can call it in other parts of your program.
+
+parameter_list: This is a list of parameters (arguments) that the function accepts. These are variables that the function can use while executing its task. If the function doesn't require any parameters, you can leave the list empty or use void to indicate no parameters.
+
+function_body: This is the block of statements enclosed in curly braces {}. It contains the code that defines what the function does.
+
+return value;: This statement is optional and is used to return a value from the function. If the function's return type is void, you don't need to include a return statement, or you can use return; to exit the function early without returning a value.
+
+There are two types of function in c:
+1] user-define function
+    - with return_type and with parameters
+        int sum(int a, int b){
+            int c;
+            c = a + b;
+            return c;
+        }
+    - with return_type and without parameters
+        int sum(){
+            int a = 10, b = 20, c;
+            c = a + b;
+            return c;
+        }
+    - without return_type and without parameters
+        void sum(){
+            int a = 10, b = 20, c;
+            c = a + b;
+            printf("%d", c);
+        }
+    - without return_type and with parameters
+        void sum(int a, int b){
+            int c;
+            c = a + b;
+            printf("%d\n", c);
+        }
+2] Built-In function
