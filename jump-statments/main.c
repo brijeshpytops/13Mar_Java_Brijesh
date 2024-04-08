@@ -15,3 +15,26 @@ int main() {
 
     return 0;
 }
+
+// soft delete
+
+
+#include <stdio.h>
+
+int main() {
+    char name[] = {
+        'b', 'r', 'i', 'j', 'e', 's', 'h'
+    };
+    name[0] = 'z';
+    for(int start = 0; start<=6; start++){
+        // printf("%d - %c\n", start, name[start]);
+        if (start == 2 || start == 3){
+            continue;
+        }
+        printf("%c",name[start]);
+    }
+    
+    
+
+    return 0;
+}

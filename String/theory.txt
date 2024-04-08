@@ -1,0 +1,11 @@
+In C programming, a string is an array of characters terminated by a null character ('\0'). Strings in C are typically represented as arrays of characters, where each character corresponds to a single byte of data. The null character ('\0') marks the end of the string, indicating where the string ends in memory.
+
+syntax : 
+
+str_name[size] = {}
+
+Example :
+
+name[100] = {
+    'b', 'r', 'i', 'j', 'e', 's', 'h'
+}
