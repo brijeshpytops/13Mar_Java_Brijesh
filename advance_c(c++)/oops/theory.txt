@@ -1,5 +1,68 @@
+In C++, "Oops" usually refers to "Object-Oriented Programming" (OOP) concepts, which are fundamental to the language. Here's a brief overview of some key OOP principles in C++:
+
 - class and object
+
+A class is a blueprint for creating objects. It defines the properties (data members) and behaviors (member functions) that objects of that class will have.
+
+syntax :
+
+class ClassName{  // class defination
+    // data member
+    // member functions
+}
+
+ ClassName obj_name; // object defination
+
+
+- Constructor and Desctructor
+
+ A constructor is a special member function of a class that is automatically called when an object of that class is created. Its primary purpose is to initialize the object's data members or perform any necessary setup tasks. Constructors have the same name as the class and can be overloaded, meaning you can have multiple constructors with different parameter lists.
+
+
+ syntax:
+
+ class ClassName {
+    public:
+        // Default constructor
+        ClassName() {
+            // Constructor code here
+        }
+
+        // Parameterized constructor
+        ClassName(parameter_list) {
+            // Constructor code here
+        }
+
+        // Copy constructor
+        ClassName(const ClassName &obj) {
+            // Constructor code here
+        }
+
+        // Other constructors...
+};
+
+
+ A destructor, on the other hand, is also a special member function of a class, but it is called automatically when an object goes out of scope or is explicitly deleted. Its purpose is to release resources acquired by the object during its lifetime, such as memory allocated on the heap or file handles opened during the object's lifetime.
+
+ syntax:
+
+ class ClassName {
+    public:
+        // Destructor
+        ~ClassName() {
+            // Destructor code here
+        }
+
+        // Other member functions...
+};
+
+
+
 - encapsulation
+
+Encapsulation is one of the four fundamental principles of object-oriented programming (OOP), along with inheritance, polymorphism, and abstraction. It refers to the bundling of data (attributes or properties) and methods (functions or procedures) that operate on the data into a single unit, known as a class. The data is hidden from the outside world and is only accessible through the methods defined in the class.
+
+
 - abstraction
 - inheritance
 - polymorphisum
