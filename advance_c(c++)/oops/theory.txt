@@ -1,0 +1,5 @@
+- class and object
+- encapsulation
+- abstraction
+- inheritance
+- polymorphisum

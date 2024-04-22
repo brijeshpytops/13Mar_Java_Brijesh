@@ -1,0 +1,10 @@
+
+In C programming, a pointer is a special variable that stores the memory address of another variable. Instead of storing a value directly, a pointer holds the address of where the value is stored in memory.
+
+Pointers are widely used in C for various purposes such as dynamic memory allocation, passing arguments to functions by reference, implementing data structures like linked lists, trees, etc., and for achieving better performance in some situations.
+
+syntax :
+
+int age = 29
+int *ptr;
+ptr = &age;
