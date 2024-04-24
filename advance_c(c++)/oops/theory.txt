@@ -64,5 +64,27 @@ Encapsulation is one of the four fundamental principles of object-oriented progr
 
 
 - abstraction
+
+Abstract Classes: An abstract class is a class that cannot be instantiated on its own; it serves as a blueprint for other classes. It may contain abstract methods (methods without implementation) as well as concrete methods (methods with implementation). Abstract classes are used to define common behaviors and properties that subclasses can inherit and implement.
+
 - inheritance
+
+Inheritance is a fundamental feature of object-oriented programming (OOP). It allows a class (the subclass or derived class) to inherit properties and behaviors (methods and attributes) from another class (the superclass or base class).
+
+
+In C++, inheritance is a fundamental feature of object-oriented programming (OOP). It allows a class (the subclass or derived class) to inherit properties and behaviors (methods and attributes) from another class (the superclass or base class).
+
+Here's a basic explanation:
+
+- Base Class (Superclass/Parentclass): This is the class whose members are inherited. It serves as a template for other classes. It defines common properties and behaviors.
+
+- Derived Class (Subclass/Childclass): This is the class that inherits from the base class. It can access the members (methods and attributes) of the base class and can add its own unique members or behaviors.
+
+Types of inheritance:
+    - single
+    - multilevel
+    - multiple
+    - hierarchical
+    - hybrid
+
 - polymorphisum
