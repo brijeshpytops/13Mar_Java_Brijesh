@@ -88,3 +88,35 @@ Types of inheritance:
     - hybrid
 
 - polymorphisum
+
+Polymorphism in C++ refers to the ability of different objects to respond to the same message in different ways. There are two main types of polymorphism in C++: compile-time (static) polymorphism and runtime (dynamic) polymorphism. 
+
+1] Compile-Time (Static) Polymorphism:
+
+Achieved through "function overloading" and "operator overloading".
+Function overloading allows multiple functions with the same name but different parameter lists to coexist in the same scope.
+Operator overloading allows operators such as +, -, *, etc., to be overloaded to work with user-defined types.
+
+2] Runtime (Dynamic) Polymorphism:
+
+Achieved through inheritance and virtual functions.
+Virtual functions allow a base class pointer or reference to invoke methods of derived classes at runtime.
+Requires the use of pointers or references to the base class.
+
+
+friend function :
+
+A friend function is a function that is not a member of a class but has access to the class's private and protected members. Friend functions are declared inside a class with the friend keyword, granting them access to private and protected members of that class.
+
+Declaration: Friend functions are declared inside the class definition preceded by the friend keyword, but they are defined outside the class.
+
+Access to Private Members: Friend functions can access private and protected members of the class in which they are declared as friends.
+Not Inherited or Overloaded: Friend functions are not members of the class, so they are not inherited or overloaded.
+
+Declaration Order: The friend function must be declared before it can be used in the class.
+
+Usage: Friend functions are often used to allow certain external functions, such as overloaded operators or utility functions, to access private data members of a class without needing to make those members public.
+
+inline fuhnction:
+
+an inline function is a function that is expanded in place at the point of its call, rather than being executed through a function call mechanism. The inline keyword is used to declare a function as inline.
