@@ -1,0 +1,24 @@
+Exception handling in C++ provides a mechanism to handle runtime errors or exceptional situations gracefully, rather than letting the program crash. It allows you to separate error-handling code from the regular code, improving code readability and maintainability. 
+
+Try-Catch Blocks : 
+
+The basic syntax for handling exceptions in C++ involves try, catch, and optionally throw:
+
+syntax :
+
+try {
+    // Code that might throw an exception
+} catch (ExceptionType1& e1) {
+    // Code to handle ExceptionType1
+} catch (ExceptionType2& e2) {
+    // Code to handle ExceptionType2
+} catch (...) {
+    // Catch-all block for handling any other type of exception
+}
+
+
+try: Encloses the code that might throw an exception.
+
+catch: Catches and handles exceptions of a specific type. Multiple catch blocks can follow a try block, each handling different types of exceptions.
+
+throw: Used to explicitly throw an exception. It can be followed by an object that describes the exception.
