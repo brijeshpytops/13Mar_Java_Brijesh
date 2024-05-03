@@ -1,0 +1,57 @@
+File handling in C involves working with files on a computer's file system using functions provided by the standard C library (stdio.h). File handling typically includes tasks such as opening files, reading from them, writing to them, and closing them. 
+
+Opening Files: The fopen() function is used to open files. It takes two parameters: the name of the file to be opened and the mode in which to open the file ("r" for read, "w" for write, "a" for append, etc.). If the file does not exist, fopen() will create it (depending on the mode).
+
+Example: 
+
+FILE *fp;
+fp = fopen("example.txt", "r");
+
+
+Reading from Files: Once a file is open, you can use functions like fgetc(), fgets(), or fread() to read data from the file.
+
+Example:
+
+char ch;
+while ((ch = fgetc(fp)) != EOF) {
+    // Process character
+}
+
+
+Writing to Files: To write data to a file, you can use functions like fprintf() or fwrite().
+
+Example: 
+
+fprintf(fp, "Hello, world!\n");
+
+Closing Files: After you're done with a file, it's important to close it using the fclose() function to release system resources.
+
+Example: 
+
+fclose(fp);
+
+
+Error Handling: Always check the return value of file operations to handle errors gracefully. If fopen() fails to open a file, it returns NULL.
+
+Example:
+
+FILE *fp;
+fp = fopen("example.txt", "r");
+if (fp == NULL) {
+    // Handle error
+}
+
+Seeking in Files: Functions like fseek() and rewind() allow you to move the file pointer to a specific position within the file.
+
+Example:
+
+fseek(fp, offset, SEEK_SET); // Move to a specific position
+rewind(fp); // Move to the beginning of the file
+
+
+ftell() function is used to determine the current position of the file pointer within a file. It returns the current position indicator of the file stream.
+
+Example:
+
+// Get the current position of the file pointer
+position = ftell(fp);
